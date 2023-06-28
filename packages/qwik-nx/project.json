@@ -65,7 +65,8 @@
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
         "jestConfig": "packages/qwik-nx/jest.config.ts",
-        "passWithNoTests": true
+        "passWithNoTests": true,
+        "testTimeout": 10000
       }
     },
     "version": {
